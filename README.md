@@ -32,7 +32,7 @@ pip install obswebsocket requests
 - RTMP or RTPS output has to be activated for the camera in the PTZ camera app.
 -   When RTMP or RTPS is activated, add the camera as a media source in OBS (rtsp://admin:secret@192.168.1.x:554/Preview_01_main)
 
-
+### Script modification
 Change the script to suit your needs, the IP address for the PTZ camera, the username/password for the PTZ, the password for the OBS websocket, and the OBS scene name used. 
 Run the script (I use PowerShell). The script output contains some simple logging that shows whether the script can connect to OBS and the camera.
 
