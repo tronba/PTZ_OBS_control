@@ -37,8 +37,7 @@ Change the script to suit your needs, the IP address for the PTZ camera, the use
 Run the script (I use PowerShell). The script output contains some simple logging that shows whether the script can connect to OBS and the camera.
 
 
-
-
+##Future plans
 I plan to use this for a specific streaming project, 
 I will add support for a secondary camera and some small improvements for connection stability.
 But I don't think this will be something I will support or develop a lot further.
