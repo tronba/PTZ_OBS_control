@@ -39,6 +39,5 @@ Run the script (I use PowerShell). The script output contains some simple loggin
 
 ## Future plans
 I plan to use this for a specific streaming project, 
-I will add support for a secondary camera and some small improvements for connection stability.
-But I don't think this will be something I will support or develop a lot further.
-This script was based on example code from both projects, and I was helped greatly by AI (ChatGPT 4o) putting it together.
+I might do some revision for stability but will most likely not develop this any further.
+This script was based on example code from both projects (Reolink and OBS), and I was helped greatly by AI (ChatGPT 4o) putting this code together.
