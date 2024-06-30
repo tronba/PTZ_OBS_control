@@ -27,9 +27,9 @@ pip install obswebsocket requests
 
 ### PTZ camera configuration
 - you need the IP address of the PTZ camera (and login credentials)
-- You have to have set a few presets in the PTZ camera app.
-- HTTP has to be activated for the camera in the PTZ camera app.
-- RTMP or RTPS output has to be activated for the camera in the PTZ camera app.
+- You have to have set a few presets in the PTZ camera app (preset of camera angles, zoom and focus).
+- HTTP has to be activated for the camera in the PTZ camera app (it won't work with HTTPS in my testing).
+- RTMP or RTPS output has to be activated for the camera in the PTZ camera app (I would recommend testing; the address formatting changes a lot depending on the transmission type).
 -   When RTMP or RTPS is activated, add the camera as a media source in OBS (rtsp://admin:secret@192.168.1.x:554/Preview_01_main)
 
 ### Script modification
