@@ -7,7 +7,7 @@ Most of Reolink's PTZ cameras can be controlled by HTTP(S) API commands. For ins
 This allows one physical camera to show many predefined frames, which is useful, for instance, when the camera covers a large outdoor area or paddock.
 
 There is a plugin for websocket control in the OBS software. This can read the states in OBS and make changes, such as changing the OBS scene that is going live.
-The Python script works as an intermediary between the camera API and OBS websocket, so changing the OBS scene makes the camera change preset (changing the framing). This helps automate a live stream.
+The Python script here works as an intermediary between the camera API and OBS websocket, so changing the OBS scene makes the camera change preset (changing the framing). This helps automate a live stream.
 
 Link to Reolink API
 https://community.reolink.com/topic/4196/reolink-camera-api-user-guide_v8-updated-in-april-2023
